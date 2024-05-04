@@ -151,7 +151,8 @@ hi link PreCondit PreProc
 hi link SpecialChar Special
 hi link Tag Special
 hi link Delimiter Special
-hi link SpecialComment Special
+" hi link SpecialComment Special
+hi link SpecialComment Comment
 hi link Debug Special
 hi link Exception Error
 hi link StatusLineTerm StatusLine
