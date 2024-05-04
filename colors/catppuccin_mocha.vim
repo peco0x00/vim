@@ -63,6 +63,10 @@ endfunction
 
 
 
+call s:hi("DiffAdded", "NONE", s:green, s:base, "NONE", "NONE")
+call s:hi("DiffRemoved", "NONE", s:red, s:base, "NONE", "NONE")
+call s:hi("DiffChanged", "NONE", s:yellow, s:base, "NONE", "NONE")
+call s:hi("DiffCommon", "NONE", s:blue, s:base, "NONE", "NONE")
 call s:hi("Normal", "NONE", s:text, s:base, "NONE", "NONE")
 call s:hi("Visual", "NONE", "NONE", s:surface1,"bold", "bold")
 call s:hi("Conceal", "NONE", s:overlay1, "NONE", "NONE", "NONE")
